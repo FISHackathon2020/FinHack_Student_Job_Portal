@@ -2,6 +2,7 @@ import datetime
 
 from django.db import models
 from django.utils import timezone
+from django.core import serializers
 
 # Create your models here.
 class Question(models.Model):
@@ -19,3 +20,6 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
     def __str__(self):
         return self.choice_text
+
+class Student(models.Model):
+    pub_date = models.DateTimeField('date published')
