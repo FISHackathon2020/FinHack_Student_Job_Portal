@@ -16,3 +16,7 @@ Our team was able to setup a Django database, but we were all new to it so this 
 3 weeks 
 
 see presentation for more detail
+
+#want to see development progression and experiments?
+
+see different branches
